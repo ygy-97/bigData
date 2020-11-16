@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-axios.defaults.baseURL = 'http://localhost:8080/api';
+axios.defaults.baseURL = 'http://localhost:8088/api';
 axios.defaults.timeout = 5000;
 
 axios.interceptors.request.use(config => {
